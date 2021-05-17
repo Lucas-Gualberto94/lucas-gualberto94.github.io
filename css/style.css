@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body {
+	font-family: 'Raleway', sans-serif;
+	background: #fffffe;
+}
+
+#content {
+	margin-top: 140px;
+}
+
+p {
+	color: #2d334a;
+}
+
+h1, h3 {
+	color: #272343;
+}
+
+h6 {
+	font-size: 0.8em;
+	border-top: 1px solid #272343;
+	padding-top: 5px;
+}
+
+/*** CARROUSEL ***/
+
+.carousel-item {
+	width: auto;
+}
+
+/***NAVEGAÇÃO ***/
+
+nav h3 {
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-left: 6px solid #ffd803;
+}
+
+nav p {
+	font-size: 0.8em;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #17A2B8;
+    background-color: #ffd803;
+}
+
+.navbar-toggler {
+	border: 1px solid rgba(39,35,67,0.5);
+}
+
+.nav-background {
+	background: white;
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.2);
+}
+
+/*** LINKS ***/
+
+a {
+    color: #2d334a;
+}
+
+a:hover {
+	color: #17A2B8;
+	text-decoration: none;
+}
+
+/*** BUTTON***/
+.btn-yellow {
+	background: #ffd803;
+	color: #272343;
+}
+
+.btn-yellow:hover {
+	background: #272343;
+	color: #ffd803;
+}
+
+.btn-purple {
+	background: #272343;
+	color: #ffd803;
+}
+
+.btn-purple:hover {
+	background: #ffd803;
+	color: #272343;
+}
+
+/*** BOX **/
+.mini-box {
+	background: #ffd803;
+	border-radius: 50px;
+	display: inline-block;
+	padding: 5px 10px;
+	color: #17A2B8;
+}
+
+/*** ICONES ***/
+.icons {
+	font-size: 15em;
+	color: #bae8e8;
+}
+
+
+/** CONFIG IMAGENS **/
+
+.borda-imagem {
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border: 6px solid rgba(39,35,67,0.8);
+}
+
+.arredondar {
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	border: 3px solid #272343;
+}
+
+/*** cores **/
+.headlinecolor {
+	color: #272343;
+}
+
+
+/*** FOOTER ***/
+footer {
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 10px;
+	border-top: 1px solid #dbdbdb;
+}
+
+/*** MEDIA QUERIES ***/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	.perfil {
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	.navbar-nav .nav-link {
+    padding-left: 15px;
+	}
+
+	h4 {
+	padding-top: 10px;
+	}
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+	.perfil {
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	.navbar-nav .nav-link {
+    padding-left: 15px;
+	}
+
+	h4 {
+	padding-top: 10px;
+	}
+}
