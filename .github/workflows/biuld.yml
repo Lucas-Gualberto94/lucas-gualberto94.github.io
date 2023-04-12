@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: Windowns 10 Pro
+    runs-on: Windowns-10
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
