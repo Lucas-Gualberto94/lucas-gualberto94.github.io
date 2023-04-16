@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "//lucas-gualberto94.github.io/static/css/main.1ba7165e.css",
-    "main.js": "//lucas-gualberto94.github.io/static/js/main.65082920.js",
+    "main.js": "//lucas-gualberto94.github.io/static/js/main.40dae99c.js",
     "static/media/site-bg.jpg": "//lucas-gualberto94.github.io/static/media/site-bg.54724d703024833ef9c6.jpg",
     "static/media/logo.svg": "//lucas-gualberto94.github.io/static/media/logo.db69ab3d72628dc90d79e6a2d59e174b.svg",
     "index.html": "//lucas-gualberto94.github.io/index.html",
     "main.1ba7165e.css.map": "//lucas-gualberto94.github.io/static/css/main.1ba7165e.css.map",
-    "main.65082920.js.map": "//lucas-gualberto94.github.io/static/js/main.65082920.js.map"
+    "main.40dae99c.js.map": "//lucas-gualberto94.github.io/static/js/main.40dae99c.js.map"
   },
   "entrypoints": [
     "static/css/main.1ba7165e.css",
-    "static/js/main.65082920.js"
+    "static/js/main.40dae99c.js"
   ]
 }
