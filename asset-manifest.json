@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "//lucas-gualberto94.github.io/static/css/main.7b73df77.css",
-    "main.js": "//lucas-gualberto94.github.io/static/js/main.1cde0791.js",
+    "main.css": "//lucas-gualberto94.github.io/static/css/main.1ba7165e.css",
+    "main.js": "//lucas-gualberto94.github.io/static/js/main.65082920.js",
     "static/media/site-bg.jpg": "//lucas-gualberto94.github.io/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/logo.svg": "//lucas-gualberto94.github.io/static/media/logo.db69ab3d72628dc90d79e6a2d59e174b.svg",
     "index.html": "//lucas-gualberto94.github.io/index.html",
-    "main.7b73df77.css.map": "//lucas-gualberto94.github.io/static/css/main.7b73df77.css.map",
-    "main.1cde0791.js.map": "//lucas-gualberto94.github.io/static/js/main.1cde0791.js.map"
+    "main.1ba7165e.css.map": "//lucas-gualberto94.github.io/static/css/main.1ba7165e.css.map",
+    "main.65082920.js.map": "//lucas-gualberto94.github.io/static/js/main.65082920.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b73df77.css",
-    "static/js/main.1cde0791.js"
+    "static/css/main.1ba7165e.css",
+    "static/js/main.65082920.js"
   ]
 }
