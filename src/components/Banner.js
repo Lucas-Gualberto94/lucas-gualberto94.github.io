@@ -5,9 +5,9 @@ import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 // type of animation
 import { TypeAnimation } from 'react-type-animation';
 //motion
-import { motion } from 'framer-motion';
+//import { motion } from 'framer-motion';
 //variants
-import { fadeIn } from '../variants';
+//import { fadeIn } from '../variants';
 
 const Banner = () => {
   return (
@@ -50,13 +50,13 @@ const Banner = () => {
             </div>
             {/* socials */}
             <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-            <a href='#'>
+            <a href='https://github.com/Lucas-Gualberto94'>
                 <FaGithub />
               </a>
-              <a href='#'>
+              <a href='https://www.linkedin.com/in/lucas-gualberto-543a07272/'>
                 <FaLinkedin />
               </a>
-              <a href='#'>
+              <a href='https://www.instagram.com/lucas__gualberto/'>
                 <FaInstagram />
               </a>
             </div>
