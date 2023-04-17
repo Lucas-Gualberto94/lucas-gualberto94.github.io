@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/teste.jpeg';
+import Image from '../assets/banner.jpeg';
 //icons
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 // type of animation
