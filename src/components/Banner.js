@@ -5,9 +5,9 @@ import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 // type of animation
 import { TypeAnimation } from 'react-type-animation';
 //motion
-//import { motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 //variants
-//import { fadeIn } from '../variants';
+import { fadeIn } from '../variants';
 
 const Banner = () => {
   return (
