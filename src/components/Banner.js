@@ -29,17 +29,19 @@ const Banner = () => {
               initial="hidden" 
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} 
-              className='mb-6 text-[36px] sm:text-[40px] font-secondary
+              className='mb-6 text-[36px] sm:text-[50px] font-secondary
               font-semibold uppercase lead-[1]'>
-              <span className='text-white mr-4'>I am a</span>
+              <span className='text-white mr-4'>I am</span>
               <TypeAnimation 
                 sequence={[
-                  'Developer',
+                  'a Developer',
                   2000,
-                  'Physics and math teacher',
+                  'a Physics and math teacher',
                   2000,
-                  'academic Researcher',
-                  2000,                
+                  'an exchange student',
+                  2000,
+                  'an academic Researcher',
+                  2000          
                 ]}
                 speed={50}
                 className='text-accent' 
@@ -53,9 +55,8 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} 
               className='mb-8 max-w-lg mx-auto lg:mx-0'>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-                 industry. Lorem Ipsum has been the industry's standard dummy text 
-                 ever since the 1500. 
+              This page is my portfolio to promote my work on programming, science, 
+              academic research and education. 
             </motion.p>
             <motion.div 
               variants={fadeIn('up', 0.6)} 
