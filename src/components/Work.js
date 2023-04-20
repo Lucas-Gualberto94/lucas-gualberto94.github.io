@@ -6,7 +6,7 @@ import img2 from '../assets/img2.png';
 const Work = () => {
   return (
     <section className='section' id='work'>
-      <h2 className='h2 leading-tight text-accent'>My recent projects</h5>
+      <h2 className='h2 leading-tight text-accent'>My recent projects</h2>
       
       <div className='container mx-auto'></div>
       <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'> 
