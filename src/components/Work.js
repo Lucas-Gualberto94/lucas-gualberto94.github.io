@@ -16,7 +16,7 @@ const Work = () => {
           <h3>Calculator</h3>
           <a href='https://github.com/Lucas-Gualberto94/Calculator' className='btn'>github</a>
           <a href='https://lucas-gualberto94.github.io/Calculator/' className='btn btn-primary'
-          target='_blank'>Live Demo</a>
+          target='_blank'  rel="noreferrer">Live Demo</a>
         </article>
         <article>
           <div>
@@ -25,7 +25,7 @@ const Work = () => {
           <h3>To do list</h3>
           <a href='https://github.com/Lucas-Gualberto94/Lista-de-tarefas' className='btn'>github</a>
           <a href='https://lucas-gualberto94.github.io/Lista-de-tarefas/' className='btn btn-primary'
-          target='_blank'>Live Demo</a>
+          target='_blank'  rel="noreferrer">Live Demo</a>
         </article>
     </section>
   );
