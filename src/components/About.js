@@ -11,8 +11,8 @@ import React from 'react';
 const About = () => {
   return (
     <section className='section' id='about' >
-      <div>
-        <p>I am a front-end developer with master's degree in Physics from the Inter-unit 
+      <div className='container mx-auto'>
+        <p className='p-8 border-2 border-white/50 rounded-x1'>I am a front-end developer with master's degree in Physics from the Inter-unit 
           Science Teaching Program at University of São Paulo (PIEC- USP). A fast learner with
           good communication skills. My current passion is to develop websites and pages.
           My journey in programmation started when I did technical course of mechatronics in
