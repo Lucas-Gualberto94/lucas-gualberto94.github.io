@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "//lucas-gualberto94.github.io/static/css/main.b331b57f.css",
-    "main.js": "//lucas-gualberto94.github.io/static/js/main.2da6c559.js",
+    "main.css": "//lucas-gualberto94.github.io/static/css/main.48cd0e15.css",
+    "main.js": "//lucas-gualberto94.github.io/static/js/main.b73b0292.js",
     "static/media/site-bg.jpg": "//lucas-gualberto94.github.io/static/media/site-bg.54724d703024833ef9c6.jpg",
     "static/media/logo.png": "//lucas-gualberto94.github.io/static/media/logo.db8bbd5dbe2d2716b3a8.png",
+    "static/media/teacher.jpeg": "//lucas-gualberto94.github.io/static/media/teacher.b03b5629fd784ebabcee.jpeg",
     "static/media/logo4.png": "//lucas-gualberto94.github.io/static/media/logo4.9715363491dcfcc954df.png",
     "static/media/img1.png": "//lucas-gualberto94.github.io/static/media/img1.fe0677516d1a6e00f0aa.png",
     "static/media/img2.png": "//lucas-gualberto94.github.io/static/media/img2.f996680e944a05afe0e1.png",
     "index.html": "//lucas-gualberto94.github.io/index.html",
-    "main.b331b57f.css.map": "//lucas-gualberto94.github.io/static/css/main.b331b57f.css.map",
-    "main.2da6c559.js.map": "//lucas-gualberto94.github.io/static/js/main.2da6c559.js.map"
+    "main.48cd0e15.css.map": "//lucas-gualberto94.github.io/static/css/main.48cd0e15.css.map",
+    "main.b73b0292.js.map": "//lucas-gualberto94.github.io/static/js/main.b73b0292.js.map"
   },
   "entrypoints": [
-    "static/css/main.b331b57f.css",
-    "static/js/main.2da6c559.js"
+    "static/css/main.48cd0e15.css",
+    "static/js/main.b73b0292.js"
   ]
 }
