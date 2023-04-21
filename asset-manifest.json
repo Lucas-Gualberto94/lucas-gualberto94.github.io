@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "//lucas-gualberto94.github.io/static/css/main.94d4b201.css",
-    "main.js": "//lucas-gualberto94.github.io/static/js/main.a66f33c3.js",
+    "main.css": "//lucas-gualberto94.github.io/static/css/main.a6327b7b.css",
+    "main.js": "//lucas-gualberto94.github.io/static/js/main.45638935.js",
     "static/media/site-bg.jpg": "//lucas-gualberto94.github.io/static/media/site-bg.54724d703024833ef9c6.jpg",
     "static/media/logo.png": "//lucas-gualberto94.github.io/static/media/logo.db8bbd5dbe2d2716b3a8.png",
     "static/media/logo4.png": "//lucas-gualberto94.github.io/static/media/logo4.9715363491dcfcc954df.png",
     "static/media/img1.png": "//lucas-gualberto94.github.io/static/media/img1.fe0677516d1a6e00f0aa.png",
     "static/media/img2.png": "//lucas-gualberto94.github.io/static/media/img2.f996680e944a05afe0e1.png",
     "index.html": "//lucas-gualberto94.github.io/index.html",
-    "main.94d4b201.css.map": "//lucas-gualberto94.github.io/static/css/main.94d4b201.css.map",
-    "main.a66f33c3.js.map": "//lucas-gualberto94.github.io/static/js/main.a66f33c3.js.map"
+    "main.a6327b7b.css.map": "//lucas-gualberto94.github.io/static/css/main.a6327b7b.css.map",
+    "main.45638935.js.map": "//lucas-gualberto94.github.io/static/js/main.45638935.js.map"
   },
   "entrypoints": [
-    "static/css/main.94d4b201.css",
-    "static/js/main.a66f33c3.js"
+    "static/css/main.a6327b7b.css",
+    "static/js/main.45638935.js"
   ]
 }
