@@ -54,7 +54,7 @@ const Banner = () => {
               initial="hidden" 
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} 
-              className='mb-8 max-w-lg mx-auto lg:mx-0'>
+              className='mb-2 max-w-lg mx-auto lg:mx-0'>
               This page is my portfolio to promote my work on programming, science, 
               academic research and education. 
             </motion.p>
@@ -63,7 +63,7 @@ const Banner = () => {
               initial="hidden" 
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} 
-              className='flex max-w-max gap-x-6 items-center mb-8 mx-auto lg:mx-0'>
+              className='flex max-w-max gap-x-6 items-center mb-2 mx-auto lg:mx-0'>
               <button className='btn btn-sm'>Contact me</button>
               <a href='https://github.com/Lucas-Gualberto94' className='text-gradient btn-link'>
                 My Portfolio
