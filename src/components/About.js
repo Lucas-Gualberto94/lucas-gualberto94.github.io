@@ -1,5 +1,5 @@
 import React from 'react';
-import { image1 } from '../assets/teacher.jpeg';
+import image1 from '../assets/teacher.jpeg';
 //Countup
 //import CountUp from 'react-countup/build/CountUp';
 //intersection obsorver hooker
