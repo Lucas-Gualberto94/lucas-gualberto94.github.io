@@ -21,7 +21,7 @@ const Banner = () => {
               initial="hidden" 
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} 
-              className='text-[45px] font-bold leading-[0.8] lg:text-[90px]'>
+              className='text-[50px] font-bold leading-[0.8] lg:text-[100px]'>
               Lucas <span>Gualberto</span>
             </motion.h1>
             <motion.div 
@@ -29,7 +29,7 @@ const Banner = () => {
               initial="hidden" 
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} 
-              className='mb-6 text-[36px] sm:text-[40px] font-secondary
+              className='mb-2 text-[36px] sm:text-[40px] font-secondary
               font-semibold uppercase lead-[1]'>
               <span className='text-white mr-4'>I am</span>
               <TypeAnimation 
@@ -92,7 +92,7 @@ const Banner = () => {
             variants={fadeIn('down', 0.5)} 
             initial="hidden" 
             whileInView={'show'} 
-            className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto'>
+            className='hidden lg:flex flex-1 max-w-[300px] lg:max-w-[450px] mx-auto'>
             <img src={Image} alt='' />
           </motion.div>
         </div>
