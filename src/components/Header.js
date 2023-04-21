@@ -7,7 +7,7 @@ const Header = () => {
   <header className='py-8'>
     <div className='container mx-auto'>
       <div className='flex justify-between items-center'>
-            <img className='object-scale-down h-16 w-48' src={logo4} alt='' />
+            <img className='object-scale-down h-16 w-32' src={logo4} alt='' />
           <button className='btn btn-sm'>Work with me</button>
       </div>
     </div>
