@@ -1,4 +1,5 @@
 import React from 'react';
+import {teacher} from '../assets/teacher.jpeg';
 //Countup
 //import CountUp from 'react-countup/build/CountUp';
 //intersection obsorver hooker
@@ -12,14 +13,21 @@ const About = () => {
   return (
     <section className='section' id='about' >
       <div className='container mx-auto'>
-        <p className='p-8 border-2 border-white/50 rounded-x1'>I am a front-end developer with master's degree in Physics from the Inter-unit 
-          Science Teaching Program at University of São Paulo (PIEC- USP). A fast learner with
-          good communication skills. My current passion is to develop websites and pages.
-          My journey in programmation started when I did technical course of mechatronics in
-          National Service for Industrial Learning (SENAI). There I had contact with C, C++, 
-          Assembly and CLP. In my master I worked with data analysis using R language. Nowaday 
-          I´ve studied JavaScript using React as a framework.    
-        </p>
+        <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center lg:gap-x-12'>
+          <div className='hidden lg:flex flex-1 max-w-[300px] lg:max-w-[450px] mx-auto'>
+            <img src={teacher} alt=''></img>
+          </div>
+          <div className='flex-1 text-center font-secondary lg:text-left'>
+            <p className='p-8 border-2 border-white/50 rounded-x1'>I am a front-end developer with master's degree in Physics from the Inter-unit 
+              Science Teaching Program at University of São Paulo (PIEC- USP). A fast learner with
+              good communication skills. My current passion is to develop websites and pages.
+              My journey in programmation started when I did technical course of mechatronics in
+              National Service for Industrial Learning (SENAI). There I had contact with C, C++, 
+              Assembly and CLP. In my master I worked with data analysis using R language. Nowaday 
+              I´ve studied JavaScript using React as a framework.    
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

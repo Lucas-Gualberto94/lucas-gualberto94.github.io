@@ -21,7 +21,7 @@ const Banner = () => {
               initial="hidden" 
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} 
-              className='text-[50px] font-bold leading-[0.8] lg:text-[100px]'>
+              className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'>
               Lucas <span>Gualberto</span>
             </motion.h1>
             <motion.div 
@@ -29,7 +29,7 @@ const Banner = () => {
               initial="hidden" 
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} 
-              className='mb-2 text-[36px] sm:text-[40px] font-secondary
+              className='mb-6 text-[36px] sm:text-[40px] font-secondary
               font-semibold uppercase lead-[1]'>
               <span className='text-white mr-4'>I am</span>
               <TypeAnimation 
@@ -54,7 +54,7 @@ const Banner = () => {
               initial="hidden" 
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} 
-              className='mb-8 max-w-lg mx-auto lg:mx-0'>
+              className='mb-6 max-w-lg mx-auto lg:mx-0'>
               This page is my portfolio to promote my work on programming, science, 
               academic research and education. 
             </motion.p>
