@@ -13,7 +13,7 @@ const Banner = () => {
   return (
     <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
       <div className='container mx-auto'>
-        <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
+        <div className='flex flex-col gap-y-4 lg:flex-row lg:items-center lg:gap-x-12'>
           {/* text*/}
           <div className='flex-1 text-center font-secondary lg:text-left'>
             <motion.h1 
@@ -68,7 +68,15 @@ const Banner = () => {
               <a href='https://github.com/Lucas-Gualberto94' className='text-gradient btn-link'>
                 My Portfolio
               </a>
-              <a href='https://github.com/Lucas-Gualberto94'>
+            </motion.div>
+            {/* socials */}
+            <motion.div 
+              variants={fadeIn('up', 0.7)} 
+              initial="hidden" 
+              whileInView={'show'}
+              viewport={{once: false, amount: 0.7}} 
+              className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
+            <a href='https://github.com/Lucas-Gualberto94'>
                 <FaGithub />
               </a>
               <a href='https://www.linkedin.com/in/lucas-gualberto-543a07272/'>
