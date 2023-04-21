@@ -13,7 +13,7 @@ const Banner = () => {
   return (
     <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
       <div className='container mx-auto'>
-        <div className='flex flex-col gap-y-4 lg:flex-row lg:items-center lg:gap-x-12'>
+        <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center lg:gap-x-12'>
           {/* text*/}
           <div className='flex-1 text-center font-secondary lg:text-left'>
             <motion.h1 
@@ -54,7 +54,7 @@ const Banner = () => {
               initial="hidden" 
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} 
-              className='mb-2 max-w-lg mx-auto lg:mx-0'>
+              className='mb-8 max-w-lg mx-auto lg:mx-0'>
               This page is my portfolio to promote my work on programming, science, 
               academic research and education. 
             </motion.p>
@@ -63,20 +63,12 @@ const Banner = () => {
               initial="hidden" 
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} 
-              className='flex max-w-max gap-x-6 items-center mb-2 mx-auto lg:mx-0'>
+              className='flex max-w-max gap-x-6 items-center mb-8 mx-auto lg:mx-0'>
               <button className='btn btn-sm'>Contact me</button>
               <a href='https://github.com/Lucas-Gualberto94' className='text-gradient btn-link'>
                 My Portfolio
               </a>
-            </motion.div>
-            {/* socials */}
-            <motion.div 
-              variants={fadeIn('up', 0.7)} 
-              initial="hidden" 
-              whileInView={'show'}
-              viewport={{once: false, amount: 0.7}} 
-              className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-            <a href='https://github.com/Lucas-Gualberto94'>
+              <a href='https://github.com/Lucas-Gualberto94'>
                 <FaGithub />
               </a>
               <a href='https://www.linkedin.com/in/lucas-gualberto-543a07272/'>
@@ -86,6 +78,7 @@ const Banner = () => {
                 <FaInstagram />
               </a>
             </motion.div>
+            
           </div>
           {/* image*/}
           <motion.div 
