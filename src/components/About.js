@@ -11,10 +11,6 @@ import image1 from '../assets/teacher.jpeg';
 
 const About = () => {
  
- {/* const [ref, inView] = useInView({
-    threshold: 0.5,
-  }); ref={ref} */}
-  
 
   return (
     <section className='section' id='about' >
