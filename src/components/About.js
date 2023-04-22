@@ -28,7 +28,7 @@ const About = () => {
               My journey in programmation started when I did technical course of mechatronics in
               National Service for Industrial Learning (SENAI). There I had contact with C, C++, 
               Assembly and CLP. In my master I worked with data analysis using R language. Nowaday 
-              I´ve studied JavaScript using React as a framework..    
+              I´ve studied JavaScript using React as a framework.    
             </p>
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
