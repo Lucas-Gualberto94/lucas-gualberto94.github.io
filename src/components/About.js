@@ -8,12 +8,11 @@ import image1 from '../assets/teacher.jpeg';
 //import { motion } from 'framer-motion';
 //variant
 //import { fadeIn} from '../variants'; 
-//const About = () => {
 //  const [ref, inView] = useInView({
 //    threshold: 0.5,
 //  }); ref={ref}
 
-
+const About = () => {
   return (
     <section className='section' id='about' >
       <div className='container mx-auto'>
