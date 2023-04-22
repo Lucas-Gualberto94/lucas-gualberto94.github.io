@@ -1,7 +1,7 @@
 import React from 'react';
 import image1 from '../assets/teacher.jpeg';
 //Countup
-import { useInView } from 'framer-motion';
+import CountUp from 'react-countup/build/CountUp';
 //intersection obsorver hooker
 import { useInView } from 'react-intersection-observer';
 //motion
