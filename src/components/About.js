@@ -3,7 +3,7 @@ import image1 from '../assets/teacher.jpeg';
 //Countup
 import CountUp from 'react-countup';
 //intersection obsorver hooker
-import { useInView } from 'framer-intersection-observer';
+import { useInView } from 'framer-motion';
 //motion
 //import { motion } from 'framer-motion';
 //variant
