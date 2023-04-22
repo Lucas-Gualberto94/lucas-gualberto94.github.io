@@ -1,7 +1,7 @@
 import React from 'react';
 import image1 from '../assets/teacher.jpeg';
 //Countup
-//import CountUp from 'react-countup';
+import CountUp from 'react-countup';
 //intersection obsorver hooker
 //import { useInView } from 'framer-motion';
 //motion
@@ -29,12 +29,11 @@ const About = () => {
               Assembly and CLP. In my master I worked with data analysis using R language. Nowaday 
               I´ve studied JavaScript using React as a framework.    
             </p>
-            {/* 
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ?
-                    <CountUp start={0} end={12} duration={3}/> : null}
+                  {/* {inView ? */}
+                    <CountUp start={0} end={12} duration={3}/>{/* : null} */}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Years of <br/>
@@ -44,8 +43,8 @@ const About = () => {
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ?
-                    <CountUp start={0} end={2} duration={3}/> : null}
+                  {/* {inView ? */}
+                    <CountUp start={0} end={2} duration={3}/>{/*  : null} */}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Years of <br/>
@@ -55,8 +54,8 @@ const About = () => {
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ?
-                    <CountUp start={0} end={2} duration={3}/> : null}
+                  {/*  {inView ? */}
+                    <CountUp start={0} end={2} duration={3}/>{/*  : null} */}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Years of <br/>
@@ -65,7 +64,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-            */}
           </div>
         </div>
       </div>
