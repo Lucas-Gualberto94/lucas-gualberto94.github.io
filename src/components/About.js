@@ -3,18 +3,20 @@ import image1 from '../assets/teacher.jpeg';
 //Countup
 import CountUp from 'react-countup';
 //intersection obsorver hooker
-//import { useInView } from 'framer-motion';
+import { useInView } from 'framer-intersection-observer';
 //motion
 //import { motion } from 'framer-motion';
 //variant
 //import { fadeIn} from '../variants'; 
-//  const [ref, inView] = useInView({
-//    threshold: 0.5,
-//  }); ref={ref}
+
 
 const About = () => {
+   const [ref, inView] = useInView({
+    threshold: 0.5,
+   }); 
+
   return (
-    <section className='section' id='about' >
+    <section className='section' id='about' ref={ref} >
       <div className='container mx-auto'>
         <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center lg:gap-x-12'>
           <div className='lg:flex flex-1 max-w-[300px] lg:max-w-[450px] mx-auto'>
@@ -32,8 +34,8 @@ const About = () => {
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {/* {inView ? */}
-                    <CountUp start={0} end={12} duration={3}/>{/* : null} */}
+                  {inView ? <CountUp start={0} end={12} duration={3}/> : 
+                  null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Years of <br/>
@@ -43,8 +45,8 @@ const About = () => {
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {/* {inView ? */}
-                    <CountUp start={0} end={2} duration={3}/>{/*  : null} */}
+                  {inView ? <CountUp start={0} end={2} duration={3}/> : 
+                  null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Years of <br/>
@@ -54,8 +56,8 @@ const About = () => {
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {/*  {inView ? */}
-                    <CountUp start={0} end={2} duration={3}/>{/*  : null} */}
+                  {inView ? <CountUp start={0} end={2} duration={3}/> : 
+                  null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Years of <br/>
