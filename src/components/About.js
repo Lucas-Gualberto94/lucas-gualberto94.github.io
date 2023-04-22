@@ -1,21 +1,23 @@
 import React from 'react';
 import image1 from '../assets/teacher.jpeg';
 //Countup
-import CountUp from 'react-countup';
+//import CountUp from 'react-countup';
 //intersection obsorver hooker
-import { useInView } from 'framer-motion';
+//import { useInView } from 'framer-motion';
 //motion
 //import { motion } from 'framer-motion';
 //variant
 //import { fadeIn} from '../variants';
 
 const About = () => {
-  const [ref, inView] = useInView({
+ 
+ {/* const [ref, inView] = useInView({
     threshold: 0.5,
-  });
+  }); ref={ref} */}
+  
 
   return (
-    <section className='section' id='about' ref={ref}>
+    <section className='section' id='about' >
       <div className='container mx-auto'>
         <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center lg:gap-x-12'>
           <div className='lg:flex flex-1 max-w-[300px] lg:max-w-[450px] mx-auto'>
@@ -30,6 +32,7 @@ const About = () => {
               Assembly and CLP. In my master I worked with data analysis using R language. Nowaday 
               I´ve studied JavaScript using React as a framework.    
             </p>
+            {/* THIS ONE IS A VALID COMMENT 
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
@@ -65,6 +68,7 @@ const About = () => {
                 </div>
               </div>
             </div>
+            */}
           </div>
         </div>
       </div>
