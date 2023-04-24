@@ -24,15 +24,7 @@ const About = () => {
             <img src={image1} alt=''></img>
           </div>
           <div className='flex-1 text-center font-secondary lg:text-left'>
-            <p className='p-8 border-2 border-white/50 rounded-x1'>I am a front-end developer with master's degree in Physics from the Inter-unit 
-              Science Teaching Program at University of São Paulo (PIEC- USP). A fast learner with
-              good communication skills. My current passion is to develop websites and pages.
-              My journey in programmation started when I did technical course of mechatronics in
-              National Service for Industrial Learning (SENAI). There I had contact with C, C++, 
-              Assembly and CLP. In my master I worked with data analysis using R language. Nowaday 
-              I´ve studied JavaScript using React as a framework.    
-            </p>
-            <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
+          <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {inView ? <CountUp start={0} end={12} duration={3}/> : 
@@ -67,6 +59,14 @@ const About = () => {
                 </div>
               </div>
             </div>
+            <p className='p-8 border-2 border-white/50 rounded-x1'>I am a front-end developer with master's degree in Physics from the Inter-unit 
+              Science Teaching Program at University of São Paulo (PIEC- USP). A fast learner with
+              good communication skills. My current passion is to develop websites and pages.
+              My journey in programmation started when I did technical course of mechatronics in
+              National Service for Industrial Learning (SENAI). There I had contact with C, C++, 
+              Assembly and CLP. In my master I worked with data analysis using R language. Nowaday 
+              I´ve studied JavaScript using React as a framework.    
+            </p>
           </div>
         </div>
       </div>
