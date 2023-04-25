@@ -68,7 +68,14 @@ const Banner = () => {
               <a href='https://github.com/Lucas-Gualberto94' className='text-gradient btn-link'>
                 My Portfolio
               </a>
-              <a href='https://github.com/Lucas-Gualberto94'>
+            </motion.div>
+            <motion.div
+            variants={fadeIn('up', 0.6)} 
+            initial="hidden" 
+            whileInView={'show'}
+            viewport={{once: false, amount: 0.7}} 
+            className='flex max-w-max gap-x-6 items-center mb-2 mx-auto lg:mx-0'>
+            <a href='https://github.com/Lucas-Gualberto94'>
                 <FaGithub />
               </a>
               <a href='https://www.linkedin.com/in/lucas-gualberto-543a07272/'>

@@ -8,27 +8,26 @@ const Work = () => {
     <section className='section' id='work'>
       <h2 className='h2 leading-tight text-accent'>My recent projects</h2>
       
-      <div className='container mx-auto'></div>
-      <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'> 
-        <article className='group relative overflow-hidden border -2 border-white/50 rounded-x1'>
+      <div className='container'>
+        <article>
           <div>
             <img src={img1} alt='' />
           </div>
           <h3>Calculator</h3>
           <a href='https://github.com/Lucas-Gualberto94/Calculator' className='btn'
-          target='_blank'  rel="noreferrer">github</a>
+            target='_blank'  rel="noreferrer">github</a>
           <a href='https://lucas-gualberto94.github.io/Calculator/' className='btn btn-primary'
-          target='_blank'  rel="noreferrer">Live Demo</a>
+            target='_blank'  rel="noreferrer">Live Demo</a>
         </article>
         <article>
-          <div>
+        <div>
             <img src={img2} alt='' />
           </div>
           <h3>To do list</h3>
-          <a href='https://github.com/Lucas-Gualberto94/Lista-de-tarefas' className='btn'
-          target='_blank'  rel="noreferrer">github</a>
-          <a href='https://lucas-gualberto94.github.io/Lista-de-tarefas/' className='btn btn-primary'
-          target='_blank'  rel="noreferrer">Live Demo</a>
+            <a href='https://github.com/Lucas-Gualberto94/Lista-de-tarefas' className='btn'
+            target='_blank'  rel="noreferrer">github</a>
+            <a href='https://lucas-gualberto94.github.io/Lista-de-tarefas/' className='btn btn-primary'
+            target='_blank'  rel="noreferrer">Live Demo</a>
         </article>
       </div>
     </section>
