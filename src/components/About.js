@@ -19,10 +19,16 @@ const About = () => {
     <section className='section' id='about' ref={ref} >
       <div className='container mx-auto'>
         <h2 className='h2 text-accent items-center'>About me</h2>
-        <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center lg:gap-x-20'>
-          <div className='lg:flex flex-1 max-w-[300px] lg:max-w-[450px] lg:h-[640px] mx-auto mb-12'>
+        <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center lg:gap-x-20 
+        lg:gap-y-0 h-screen'>
+          <motion.div
+          variants={fadeIn('right', 0.3)}
+          intial='hidden'
+          whileInView={'show'}
+          viewport={{ once: false, amount: 0.3 }} 
+          className='lg:flex flex-1 max-w-[300px] lg:max-w-[450px] mx-auto'>
             <img src={image1} alt=''></img>
-          </div>
+          </motion.div>
           <div className='flex-1 text-center font-secondary lg:text-left'>
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
