@@ -6,9 +6,12 @@ import img2 from '../assets/img2.png';
 const Work = () => {
   return (
     <section className='section' id='work'>
-      <h2 className='h2 leading-tight text-accent'>My recent projects</h2>
       
-      <div className='container grid grid-cols-1 md:grid-cols-3'>
+      <div>
+      <h2 className='h2 leading-tight text-accent'>My recent projects</h2>
+      </div>
+      
+      <div className='container grid grid-cols-1 md:grid-cols-3 gap-2'>
         <article>
           <div>
             <img src={img1} alt='' />
