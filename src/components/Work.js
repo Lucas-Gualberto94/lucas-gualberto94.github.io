@@ -1,6 +1,7 @@
 import React from 'react';
 import img1 from '../assets/img1.png';
 import img2 from '../assets/img2.png';
+import img3 from '../assets/img3.png';
 
 
 const Work = () => {
@@ -22,12 +23,12 @@ const Work = () => {
         </article>
         <article>
         <div>
-            <img src={img2} alt='' />
+            <img src={img3} alt='' />
           </div>
-          <h3>To do list</h3>
-            <a href='https://github.com/Lucas-Gualberto94/Lista-de-tarefas' className='btn mx-6'
+          <h3>Buscador de CEP</h3>
+            <a href='https://github.com/Lucas-Gualberto94/Buscador-cep' className='btn mx-6'
             target='_blank'  rel="noreferrer">github</a>
-            <a href='https://lucas-gualberto94.github.io/Lista-de-tarefas/' className='text-gradient btn-link'
+            <a href='https://lucas-gualberto94.github.io/Buscador-cep/' className='text-gradient btn-link'
             target='_blank'  rel="noreferrer">Live Demo</a>
         </article>
         <article>

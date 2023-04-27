@@ -19,8 +19,8 @@ const About = () => {
     <section className='section' id='about' ref={ref} >
       <div className='container mx-auto'>
         <h2 className='h2 text-accent items-center'>About me</h2>
-        <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center lg:gap-x-12'>
-          <div className='lg:flex flex-1 max-w-[300px] lg:max-w-[450px] mx-auto mb-6'>
+        <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center lg:gap-x-20'>
+          <div className='lg:flex flex-1 max-w-[300px] lg:max-w-[450px] lg:h-[640px] mx-auto mb-12'>
             <img src={image1} alt=''></img>
           </div>
           <div className='flex-1 text-center font-secondary lg:text-left'>
@@ -59,7 +59,8 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <p className='p-8 border-2 border-white/50 rounded-x1'>I am a front-end developer with master's degree in Physics from the Inter-unit 
+            <p className='p-4 border-2 border-white/50 rounded-x1'>I am a front-end developer with 
+              <b>master's degree</b> in Physics from the Inter-unit 
               Science Teaching Program at University of São Paulo (PIEC- USP). A fast learner with
               good communication skills. My current passion is to develop websites and pages.
               My journey in programmation started when I did technical course of mechatronics in
