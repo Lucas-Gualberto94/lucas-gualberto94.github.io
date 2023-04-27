@@ -5,9 +5,9 @@ import CountUp from 'react-countup';
 //intersection obsorver hooker
 import { useInView } from 'react-intersection-observer';
 //motion
-//import { motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 //variant
-//import { fadeIn} from '../variants'; 
+import { fadeIn} from '../variants'; 
 
 
 const About = () => {
