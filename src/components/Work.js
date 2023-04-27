@@ -7,19 +7,17 @@ const Work = () => {
   return (
     <section className='section' id='work'>
       
-      <div>
-      <h2 className='h2 leading-tight text-accent'>My recent projects</h2>
-      </div>
-      
-      <div className='container grid grid-cols-1 md:grid-cols-3 gap-2'>
+    <div>
+    <h2 className='h2 leading-tight text-accent'>My recent projects</h2>      
+      <div className='container grid grid-cols-1 md:grid-cols-3 gap-12'>
         <article>
           <div>
             <img src={img1} alt='' />
           </div>
           <h3>Calculator</h3>
-          <a href='https://github.com/Lucas-Gualberto94/Calculator' className='btn'
+          <a href='https://github.com/Lucas-Gualberto94/Calculator' className='btn mx-6'
             target='_blank'  rel="noreferrer">github</a>
-          <a href='https://lucas-gualberto94.github.io/Calculator/' className='btn btn-primary'
+          <a href='https://lucas-gualberto94.github.io/Calculator/' className='text-gradient btn-link'
             target='_blank'  rel="noreferrer">Live Demo</a>
         </article>
         <article>
@@ -27,9 +25,9 @@ const Work = () => {
             <img src={img2} alt='' />
           </div>
           <h3>To do list</h3>
-            <a href='https://github.com/Lucas-Gualberto94/Lista-de-tarefas' className='btn'
+            <a href='https://github.com/Lucas-Gualberto94/Lista-de-tarefas' className='btn mx-6'
             target='_blank'  rel="noreferrer">github</a>
-            <a href='https://lucas-gualberto94.github.io/Lista-de-tarefas/' className='btn btn-primary'
+            <a href='https://lucas-gualberto94.github.io/Lista-de-tarefas/' className='text-gradient btn-link'
             target='_blank'  rel="noreferrer">Live Demo</a>
         </article>
         <article>
@@ -37,9 +35,9 @@ const Work = () => {
             <img src={img1} alt='' />
           </div>
           <h3>Calculator</h3>
-          <a href='https://github.com/Lucas-Gualberto94/Calculator' className='btn'
+          <a href='https://github.com/Lucas-Gualberto94/Calculator' className='btn mx-6'
             target='_blank'  rel="noreferrer">github</a>
-          <a href='https://lucas-gualberto94.github.io/Calculator/' className='btn btn-primary'
+          <a href='https://lucas-gualberto94.github.io/Calculator/' className='text-gradient btn-link'
             target='_blank'  rel="noreferrer">Live Demo</a>
         </article>
         <article>
@@ -47,9 +45,9 @@ const Work = () => {
             <img src={img2} alt='' />
           </div>
           <h3>To do list</h3>
-            <a href='https://github.com/Lucas-Gualberto94/Lista-de-tarefas' className='btn'
+            <a href='https://github.com/Lucas-Gualberto94/Lista-de-tarefas' className='btn mx-6'
             target='_blank'  rel="noreferrer">github</a>
-            <a href='https://lucas-gualberto94.github.io/Lista-de-tarefas/' className='btn btn-primary'
+            <a href='https://lucas-gualberto94.github.io/Lista-de-tarefas/' className='text-gradient btn-link'
             target='_blank'  rel="noreferrer">Live Demo</a>
         </article>
         <article>
@@ -57,9 +55,9 @@ const Work = () => {
             <img src={img1} alt='' />
           </div>
           <h3>Calculator</h3>
-          <a href='https://github.com/Lucas-Gualberto94/Calculator' className='btn'
+          <a href='https://github.com/Lucas-Gualberto94/Calculator' className='btn mx-6'
             target='_blank'  rel="noreferrer">github</a>
-          <a href='https://lucas-gualberto94.github.io/Calculator/' className='btn btn-primary'
+          <a href='https://lucas-gualberto94.github.io/Calculator/' className='text-gradient btn-link'
             target='_blank'  rel="noreferrer">Live Demo</a>
         </article>
         <article>
@@ -67,12 +65,13 @@ const Work = () => {
             <img src={img2} alt='' />
           </div>
           <h3>To do list</h3>
-            <a href='https://github.com/Lucas-Gualberto94/Lista-de-tarefas' className='btn'
+            <a href='https://github.com/Lucas-Gualberto94/Lista-de-tarefas' className='btn mx-6'
             target='_blank'  rel="noreferrer">github</a>
-            <a href='https://lucas-gualberto94.github.io/Lista-de-tarefas/' className='btn btn-primary'
+            <a href='https://lucas-gualberto94.github.io/Lista-de-tarefas/' className='text-gradient btn-link'
             target='_blank'  rel="noreferrer">Live Demo</a>
         </article>
       </div>
+    </div>
     </section>
   );
 };
