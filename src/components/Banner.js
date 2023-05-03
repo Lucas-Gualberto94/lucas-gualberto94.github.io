@@ -11,7 +11,7 @@ import { fadeIn } from '../variants';
 
 const Banner = () => {
   return (
-    <section className='section' id='home'>
+    <section className='h-screen flex items-center' id='home'>
       <div className='container mx-auto'>
         <div className='flex flex-col gap-y-3 lg:flex-row lg:items-center lg:gap-x-12'>
           {/* text*/}
