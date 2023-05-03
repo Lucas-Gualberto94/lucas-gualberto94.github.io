@@ -8,8 +8,10 @@ const Work = () => {
   return (
     <section className='section' id='work'>
       
-    <div className='container mx-auto'>
-    <h2 className='h2 leading-tight text-accent'>My recent projects</h2>      
+    <div className='container mx-auto'>   
+      <div>
+      <h2 className='h2 leading-tight text-accent'>My recent projects</h2>   
+      </div>
       <div className='container grid grid-cols-1 md:grid-cols-3 gap-12'>
         <article>
           <div>

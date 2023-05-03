@@ -13,6 +13,9 @@ const About = () => {
   return (
     <section className='section h-screen' id='about' ref={ref} >
       <div className='container mx-auto'>
+        <div>
+        <h2 className='h2 text-accent items-center'>About me</h2>
+        </div>
         <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center lg:gap-x-20 
         lg:gap-y-0 h-screen'>
           <div className='lg:flex flex-1 max-w-[300px] lg:max-w-[450px] mx-auto'>
@@ -21,7 +24,6 @@ const About = () => {
           <div className='flex-1 text-center font-secondary lg:text-left'>
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
-                <h2 className='h2 text-accent items-center'>About me</h2>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {inView ? <CountUp start={0} end={12} duration={3}/> : 
                   null}
