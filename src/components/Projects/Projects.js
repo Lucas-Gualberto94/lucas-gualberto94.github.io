@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import zipcode from "../../Assets/img3.png";
 import calculator from "../../Assets/img1.png";
 import todo from "../../Assets/img2.png";
+import guide from "../../Assets/img4.png";
 
 function Projects() {
   return (
@@ -18,6 +19,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={guide}
+              isBlog={false}
+              title="react-guide"
+              description="interface developed through the course 'React - 
+              The Complete Guide (incl Hooks, React Router, Redux)' by Maximilian 
+              Schwarzmüller, avaliable on Udemy platform"
+              ghLink="https://github.com/Lucas-Gualberto94/react-guide"
+              demoLink="https://lucas-gualberto94.github.io/react-guide/"              
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={zipcode}

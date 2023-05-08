@@ -4,6 +4,7 @@ import {
   SiVisualstudiocode,
   SiRstudio,
   SiGithub,
+  SiBootstrap,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -13,11 +14,14 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
+      </Col>   
+      <Col xs={4} md={2} className="tech-icons">
         <SiRstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
-      </Col>
+      </Col>     
     </Row>
   );
 }

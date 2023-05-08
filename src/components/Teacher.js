@@ -1,14 +1,11 @@
 import React from "react";
 
 function Teacher() {
-
   return (
-    <div>
-      <h1>
-        teacher section
-      </h1>
-    </div>
+  <section className="resume-section">
+    <h2>Lucas</h2>
+  </section>
   );
-};
+}
 
 export default Teacher;

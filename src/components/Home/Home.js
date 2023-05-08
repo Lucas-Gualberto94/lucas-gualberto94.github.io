@@ -56,7 +56,12 @@ function Home() {
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
-            <ul className="home-about-social-links">
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+      <div>
+        <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/Lucas-Gualberto94"
@@ -87,11 +92,8 @@ function Home() {
                   <AiFillInstagram />
                 </a>
               </li>
-            </ul>
-            </Col>
-          </Row>
-        </Container>
-      </Container>
+        </ul>
+      </div>
     </section>
   );
 }
