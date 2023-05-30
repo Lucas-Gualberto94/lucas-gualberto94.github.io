@@ -46,7 +46,7 @@ function Home() {
           </Row>
           <Row>
             <Col md={12} className="home-about-social">
-            <br/> <br/><p className="info">
+            <br/> <br/><p className="inf">
               <strong className="main-name">
                 This page is my portfolio to promote my work on programming, 
                 science, academic research and education.
