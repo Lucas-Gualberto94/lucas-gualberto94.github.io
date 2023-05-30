@@ -276,12 +276,11 @@ button:focus {
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  text-align: center;
 }
 
 .main-name {
   color: #cd5ff8;
-  text-align: center;
 }
 
 .Typewriter__wrapper {
