@@ -24,11 +24,11 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Lucas Gualberto </span>
             from <span className="purple"> São Paulo, Brazil. </span>
             I´ve been living in Galway - Ireland since 2022.
-            <br />I am a front-end developer with <span className="purple"> master's degree
-            </span> in Physics from the Inter-unit Science Teaching Program at University of 
-            São Paulo (PIEC- USP). A fast learner with good communication skills. My current 
-            passion is to develop websites and blogs. In my master I worked with data analysis 
-            using R language. Nowaday I´ve studied JavaScript using React as a framework.
+            <br />I am studying a postgraduate degree in full-stack development. I also have a 
+            <span className="purple"> master's degree</span> in Physics from the Inter-unit Science 
+            Teaching Program at University of São Paulo (PIEC- USP). A fast learner with good 
+            communication skills. My current passion is to develop websites and blogs. In my master 
+            I worked with data analysis using R language. Nowaday I´ve studied JavaScript and Java.
             <br/>
             <br/>
             <br/>
