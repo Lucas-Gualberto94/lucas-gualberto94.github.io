@@ -81,16 +81,6 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/teacher"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Teacher
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
                 href="https://lucas-gualberto94.github.io/blog/"
                 target="_blank"
                 rel="noreferrer"
