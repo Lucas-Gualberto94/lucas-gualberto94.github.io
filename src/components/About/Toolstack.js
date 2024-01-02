@@ -5,6 +5,7 @@ import {
   SiRstudio,
   SiGithub,
   SiBootstrap,
+  SiApachenetbeanside,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -21,6 +22,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachenetbeanside />
       </Col>     
     </Row>
   );

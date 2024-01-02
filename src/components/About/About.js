@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import teacher from "../../Assets/teacher.jpeg";
+import teacher from "../../assets/teacher.jpeg";
 import Toolstack from "./Toolstack";
 
 function About() {

@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
-import pdf from "../../Assets/../Assets/curriculo.pdf";
+import pdf from "../../assets/curriculo.pdf";
 
 
 function AboutCard() {
@@ -23,10 +23,9 @@ function AboutCard() {
           <p style={{ textAlign: "justify", margin: "20px" }}>
             Hi Everyone, I am <span className="purple">Lucas Gualberto </span>
             from <span className="purple"> São Paulo, Brazil. </span>
-            I´ve been living in Galway - Ireland since 2022.
             <br />I am studying a postgraduate degree in full-stack development. I also have a 
-            <span className="purple"> master's degree</span> in Physics from the Inter-unit Science 
-            Teaching Program at University of São Paulo (PIEC- USP). A fast learner with good 
+            <span className="purple"> master's degree</span> in Physics at University of São Paulo (<span className="purple">PIEC- USP</span>). 
+            I lived in <span className="purple">Ireland for two years</span> in order to improve my English (2022-2023). A fast learner with good 
             communication skills. My current passion is to develop websites and blogs. In my master 
             I worked with data analysis using R language. Nowaday I´ve studied JavaScript and Java.
             <br/>
@@ -36,7 +35,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Writing Blogs about Science, Tech and Education
+              <ImPointRight /> Writing Blogs about Science, Technology and Education
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling

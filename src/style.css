@@ -33,7 +33,7 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  background-image: url(./Assets/pre.svg);
+  background-image: url(./assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -257,14 +257,14 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: var(--image-gradient), url(./assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-top: 30px !important;
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 4rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -342,8 +342,11 @@ button:focus {
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
   color: white !important;
+}
+
+.home-about-social > p {
+  margin: 0;
 }
 
 .home-about-social-links {
@@ -357,8 +360,8 @@ button:focus {
 .home-social-icons {
   position: relative !important;
   display: inline-block !important;
-  width: 40px !important;
-  height: 40px !important;
+  width: 100px !important;
+  height: 100px !important;
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
@@ -396,6 +399,7 @@ button:focus {
   display: inline-block !important;
   padding-right: 15px;
   padding-left: 15px;
+  font-size: 40px;
 }
 
 .icon-colour {
@@ -403,49 +407,6 @@ button:focus {
 }
 
 
-/* --------- */
-/* Footer */
-/* --------- */
-.footer {
-  background-color: rgb(10, 4, 22);
-  bottom: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important ;
-}
-.footer-copywright {
-  text-align: center !important;
-}
-
-.footer-body {
-  z-index: 1;
-  text-align: center !important;
-}
-
-@media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center !important;
-  }
-
-  .footer-body {
-    text-align: center !important;
-  }
-}
-
-.footer h3 {
-  font-size: 1em;
-  color: white !important;
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
-}
-.footer-icons {
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
-  padding: 0 !important;
-}
-
-.blockquote-footer {
-  color: #a588c0 !important;
-}
 /* --------- */
 /* Projects */
 /* --------- */
