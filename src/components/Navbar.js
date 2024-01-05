@@ -80,7 +80,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://lucas-gualberto94.github.io/blog/"
+                href="https://lucas-gualberto94.github.io/angular-blog/"
                 target="_blank"
                 rel="noreferrer"
               >
