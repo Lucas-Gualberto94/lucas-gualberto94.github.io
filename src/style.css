@@ -433,11 +433,17 @@ button:focus {
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
+
+.x  {
+  color: var(--imp-text-color) !important;
+}
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
+
 
 .blog-card {
   padding-top: 50px !important;

@@ -6,8 +6,11 @@ import zipcode from "../../assets/img3.png";
 import calculator from "../../assets/img1.png";
 import todo from "../../assets/img2.png";
 import guide from "../../assets/img4.png";
-import pokedex from "../../assets/pokedex.png"
-import carrinhoCompras from "../../assets/carrinhoCompras.png"
+import pokedex from "../../assets/pokedex.png";
+import carrinhoCompras from "../../assets/carrinhoCompras.png";
+import buzzfeed from "../../assets/readme1.png";
+import search from "../../assets/redme.png";
+
 
 function Projects() {
   return (
@@ -23,6 +26,36 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={buzzfeed}
+              isBlog={false}
+              title="Angular - Buzzfeed about The Office series"
+              description="A fully functional EXAMPLE project written in Angular showing its 
+              main concepts. This project was built along with a Bootcamp offered 
+              by digital innovation one (DIO) showing how to create construct a buzzfeed about which
+              The Office personality most resembles yours.
+              "
+              ghLink="https://github.com/Lucas-Gualberto94/angular-buzzfeed"
+              demoLink="https://lucas-gualberto94.github.io/angular-buzzfeed/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={search}
+              isBlog={false}
+              title="Angular - Search Pokemon"
+              description="A fully functional EXAMPLE project written in Angular showing how 
+              to work with HTTP requisitions. This project was built along with an Bootcamp offered 
+              by digital innovation one (DIO) showing how to consume a HTTP requisition using Angular."
+              ghLink="https://github.com/Lucas-Gualberto94/angular-pokemon"
+              demoLink="https://lucas-gualberto94.github.io/angular-pokemon/"
+            />
+          </Col>
+
+
+          
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pokedex}
               isBlog={false}
@@ -86,9 +119,7 @@ function Projects() {
               imgPath={carrinhoCompras}
               isBlog={false}
               title="Carrinho de Compras"
-              description="developing interface (not completed yet) through the course 'React - 
-              The Complete Guide (incl Hooks, React Router, Redux)' by Maximilian 
-              Schwarzmüller, avaliable on Udemy platform"
+              description="Project developed during the post gratudation at Descomplica"
               ghLink="https://github.com/Lucas-Gualberto94/carrinho_Compras"
               demoLink="https://lucas-gualberto94.github.io/carrinho_Compras/"              
             />
