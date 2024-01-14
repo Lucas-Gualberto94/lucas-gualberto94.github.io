@@ -436,6 +436,7 @@ button:focus {
 
 .x  {
   color: var(--imp-text-color) !important;
+  font-weight: bolder;
 }
 
 .project-card-view:hover {
