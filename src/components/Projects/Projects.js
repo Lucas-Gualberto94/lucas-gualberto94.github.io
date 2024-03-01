@@ -10,7 +10,9 @@ import pokedex from "../../assets/pokedex.png";
 import carrinhoCompras from "../../assets/carrinhoCompras.png";
 import buzzfeed from "../../assets/readme1.png";
 import search from "../../assets/redme.png";
-
+import gamboa from "../../assets/gamboa.png";
+import courses from "../../assets/courses.png";
+import crudJS from "../../assets/crudJS.png";
 
 function Projects() {
   return (
@@ -25,6 +27,49 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gamboa}
+              isBlog={false}
+              title="Angular - Login, Dashboard and form to Gamboa Solutions"
+              description="The project have been developed by me for Gamboa Solutions. Here you can find a  
+              demonstration. To access the content about form and dashboard - that is in construction - the 
+              email is 'lucas@gmail.com' and password is 'lucas'.
+              "
+              ghLink="https://github.com/Lucas-Gualberto94/gamboa-dashboard-form"
+              demoLink="https://lucas-gualberto94.github.io/gamboa-dashboard-form/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={courses}
+              isBlog={false}
+              title="Angular and Java (Spring) - CRUD using concepts about Java and Angular"
+              description="A fully functional EXAMPLE CRUD written in Angular aand JAVA, .
+              This project was built along with course taught by Loiane Groner on Youtube. 
+              "
+              ghLink="https://github.com/Lucas-Gualberto94/crud-angular"
+              demoLink="https://lucas-gualberto94.github.io/crud-angular/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crudJS}
+              isBlog={false}
+              title="JavaScript - CRUD"
+              description="A CRUD written in vanilla JavaScript, testing my skills to 
+              create, read, update and delete elements in a application. Access my personal 
+              blog, there I explain how to build your own CRUD. 
+              "
+              ghLink="https://github.com/Lucas-Gualberto94/crud-JS?tab=readme-ov-file"
+              demoLink="https://lucas-gualberto94.github.io/crud-JS/"              
+            />
+          </Col>
+
+
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={buzzfeed}
