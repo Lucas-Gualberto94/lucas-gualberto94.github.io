@@ -1,29 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.e098700e.css",
-    "main.js": "/static/js/main.c495317b.js",
+    "main.js": "/static/js/main.4493341d.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/readme1.png": "/static/media/readme1.4b645b2e134b90293d38.png",
+    "static/media/gamboa.png": "/static/media/gamboa.e5a705f948d0372feff4.png",
     "static/media/carrinhoCompras.png": "/static/media/carrinhoCompras.de6e193ed053ebe5f43b.png",
     "static/media/pokedex.png": "/static/media/pokedex.09733cbc783536c85a9d.png",
     "static/media/redme.png": "/static/media/redme.1b9561bda276c9a74ccf.png",
     "static/media/teacher.jpeg": "/static/media/teacher.b03b5629fd784ebabcee.jpeg",
     "static/media/curriculo.pdf": "/static/media/curriculo.7332c53296beb7a96f97.pdf",
     "static/media/img3.png": "/static/media/img3.58d8eb507262272a01a9.png",
+    "static/media/crudJS.png": "/static/media/crudJS.e738b90ff19aa11d5368.png",
     "static/media/logo1.png": "/static/media/logo1.916d7304962170b6bba1.png",
     "static/media/img1.png": "/static/media/img1.fe0677516d1a6e00f0aa.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/img4.png": "/static/media/img4.026682d6d9449ba4a8af.png",
+    "static/media/courses.png": "/static/media/courses.7565b87ff248f365aaba.png",
     "static/media/banner.jpeg": "/static/media/banner.717bc3d3ea99c8ecf422.jpeg",
     "static/media/img2.png": "/static/media/img2.f996680e944a05afe0e1.png",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
     "main.e098700e.css.map": "/static/css/main.e098700e.css.map",
-    "main.c495317b.js.map": "/static/js/main.c495317b.js.map",
+    "main.4493341d.js.map": "/static/js/main.4493341d.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e098700e.css",
-    "static/js/main.c495317b.js"
+    "static/js/main.4493341d.js"
   ]
 }
